@@ -9,7 +9,7 @@ import CartOverlay from './components/CartOverlay';
 
 function App() {
   const [cart, setCart] = useState([]);
-  const [activeCategory, setActiveCategory] = useState('clothes');
+  const [activeCategory, setActiveCategory] = useState('Clothes');
   const categories = ['Clothes', 'Tech'];
   const [isCartOverlayOpen, setCartOverlayOpen] = useState(false);
 
